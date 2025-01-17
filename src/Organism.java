@@ -1,12 +1,15 @@
-public abstract class Organism {
+public abstract class Organism
+{
 
     protected String name;
 
-    public Organism(String name) {
+    public Organism(String name)
+    {
         this.name = name;
     }
 
-    public String getName() {
+    public String getName()
+    {
         return name;
     }
 
